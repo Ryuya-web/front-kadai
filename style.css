@@ -185,7 +185,7 @@
     margin-left:30px;
   }
   .main2-box-text{
-    margin-top:20px;
+    margin-top:18px;
     font-family:'源ノ角ゴシック';
     font-size:14px;
     font-weight: normal;
@@ -360,10 +360,11 @@
     height: 802px;
     overflow: hidden;
     
+    
   }
   .main5-title{
     margin-top:65px;
-    width:520px;
+    width:468px;
     height: 109px;
     margin-right: auto;
     margin-left:auto;
@@ -384,23 +385,64 @@
   .main5-container{
     display: flex;
     justify-content: center;
-    margin-top:76px;
+    margin-top:65px;
+  }
+  .main5-box-number{
+    width:42px;
+    height:52px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:12px;
+    
+  }
+  .main5-box-number h3{
+    font-family:'源ノ角ゴシック';
+    font-size:36px;
+    font-weight: bold;
+    color:#0D67FF;
+  }
+  .red-line2{
+    height:4px;
+    width:24px;
+    margin-left:148px;
+    background-color: red;
+    border-radius:20%;
+  }
+  .main5-subtitle{
+    text-align: center;
+    margin-top:17px;
+    width:323px;
+    height: 53px;
+  }
+  .main5-subtitle p{
+    font-family: Helevetica Nune;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .main5-box-img{
+    width: 275px;
+    height:160px;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right: auto
+
+  }
+  .main5-box-img img{
+    margin-left: 76px;
+    margin-top:16px;
   }
   .main5-box{
     width:325px;
     height: 405px;
-    background-color:wheat;
     margin-right:35px;
   }
   .main5-box2{
-    width:322px;
+    width:325px;
     height: 405px;
-    background-color:blue;
   }
   .main5-box3{
-    width:322px;
+    width:325px;
     height: 405px;
-    background-color:green;
     margin-left:35px;
   }
   .button{
@@ -414,16 +456,24 @@
   .main-visual6{
     width: 100%;;
     height: 680px;
-    background-color: pink;
+    background-image:url(img/ellipse.png);
+    background-size:cover;
+    background-position: 30% 0%;
     overflow:hidden;
   }
   .main6-title{
-    margin-top:104px;
+    margin-top:144px;
     width: 496px;
     height: 112px;
     margin-right: auto;
     margin-left:auto;
-    background-color:rebeccapurple;
+    text-align:center;
+  }
+  .main6-title h1{
+    font-family:'源ノ角ゴシック';
+    font-size:36px;
+    font-weight: bold;
+    color:#4B4B4B;
   }
   .red-line{
     height:4px;
@@ -432,6 +482,34 @@
     margin-left:auto;
     margin-top: 44px;
     background-color: red;
+    border-radius:20%;
+  }
+  .main6-subtitle{
+    font-family:'源ノ角ゴシック';
+    font-size:18px;
+    font-weight: normal;
+    color:#4B4B4B;
+  }
+  .main6-number{
+    width:47px;
+    height: 116px;
+    margin-left:28px;
+    float: left;
+  }
+  .main6-img{
+    width:22px;
+    height:116px;
+    float: left;
+  }
+  .main6-img img{
+    margin-top:30px;
+  }
+  .main6-img p{
+    font-family:'源ノ角ゴシック';
+    font-size:18px;
+    font-weight: normal;
+    color:#4B4B4B;
+    margin-top:22px;
   }
   .main6-container{
     display: flex;
@@ -441,19 +519,87 @@
   .main6-box{
     width:126px;
     height:142px;
-    background-color: brown;
-    margin-right: 65px;
+    margin-left:163px;
+    margin-right: 43px;
+  }
+  .main6-subtitle2{
+    width:108px;
+    height: 26px;
+    margin-left:167px;
+  }
+  .main6-subtitle2 p{
+    font-family:'源ノ角ゴシック';
+    font-size:18px;
+    font-weight: normal;
+    color:#4B4B4B;
   }
   .main6-box2{
     width:446px;
     height:142px;
-    background-color:palegoldenrod;
+  }
+  .main6-img2{
+    background-image:url(img/bg_people.png);
+    background-position: center;
+    width:446px;
+    height:100px;
+    margin-top:14px;
+  }
+  .main6-number2{
+    width:141px;
+    height:120px;
+    margin-left:150px;
+    float: left;
+  }
+  .main6-number2 img{
+    width:141px;
+    height:120px;
+    display: block;
+  }
+  .yen p{
+    float: left;
+    margin-top:75px;
+    font-size:18px;
+    font-weight: normal;
+    color:#4B4B4B;
+  }
+  .main6-subtitle3{
+    margin-left:80px;
+  }
+  .main6-subtitle3 p{
+    font-family:'源ノ角ゴシック';
+    font-size:18px;
+    font-weight: normal;
+    color:#4B4B4B;
   }
   .main6-box3{
     width:289px;
     height:143px;
-    background-color: rebeccapurple;
     margin-left:39px;
+  }
+  .main6-number3{
+    margin-left: 60px;
+    margin-top:10px;
+  }
+  .main6-number3 img{
+    width:141px;
+    height:120px;
+    display: block;
+    float:left;
+  }
+  .ken{
+    float: left;
+    margin-top:75px;
+    font-size:18px;
+    font-weight: normal;
+    color:#4B4B4B;
+  }
+  .main6-img3{
+    background-image:url(img/comment.png);
+    background-repeat: repeat-x;
+    background-position: 0% 100%;
+    width:225px;
+    height:100px;
+    margin-top:14px;
   }
 
   footer{
