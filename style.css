@@ -609,22 +609,104 @@
       overflow: hidden;
       
   }
+  .footer-title p{
+    font-family:'源ノ角ゴシック';
+    font-size:14px;
+    font-weight: normal;
+    color:#4B4B4B;
+  }
+  .company{
+    margin-left:31px;
+    margin-top:60px;
+  }
+  .company p{
+    font-family:'源ノ角ゴシック';
+    font-size:14px;
+    font-weight: normal;
+    color:#4B4B4B;
+  }
   
   .footer-content{
     width:518px;
     height: 155px;
     position: relative;
-    background-color:green;
-    margin-top:80px;
-    margin-left:41%;
+    margin-top:74px;
+    margin-left:542px;
+  }
+  .icon{
+    margin-top:6px;
+    margin-left:31px;
   }
   .footer-content2{
-    top:145px;
-    left:384px;
+    top:134px;
+    left:356px;
     position: absolute;
-    width:134px;
+    width:161px;
+    height: 20px;
+  }
+  .arrow01 {
+    display: block;
+    width: 10px;
+    margin-top:7px;
     height: 10px;
-    background-color: blue;
+    border-top: solid 2px #697b91;
+    border-right: solid 2px #697b91;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    float: left;
+  }
+  .footer-link{
+    float: left;
+    margin-left:9px;
+    margin-top:2px;
+  }
+  .footer-link a{
+    font-family:'源ノ角ゴシック';
+    font-size:14px;
+    font-weight: normal;
+    color:#4B4B4B;
+  }
+  .arrow02 {
+    display: block;
+    width: 10px;
+    margin-top:7px;
+    height: 10px;
+    margin-left:8px;
+    border-top: solid 2px #697b91;
+    border-right: solid 2px #697b91;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    float: left;
+  }
+  .square1{
+    margin-left:10px;
+    width:6px;
+    height: 6px;
+    background-color:#F6404F;
+    float:left;
+  }
+  .square{
+    margin-left:22px;
+    width:6px;
+    height: 6px;
+    background-color:#F6404F;
+    float:left;
+  }
+  .circle1{
+    margin-left:19px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color:#F6404F;
+    float:left;
+  }
+  .circle{
+    margin-left:39px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color:#F6404F;
+    float:left;
   }
   /*1246*/
  
