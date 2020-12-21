@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
   }
+  html{
+    font-size:62.5%;
+  }
   .clearfix:after {
     visibility: hidden;
     display: block;
@@ -18,41 +21,44 @@
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05); 
   }
   .logo-top{
-    width:120px;
+    width:9.375%;
     height:46px;
-    margin-left:112px;
+    margin-left:8.75%;
     margin-top:17px;
     float:left;
   }
   .header-text{
     float:left;
-    width:268px;
+    width:21.5%;
     height: 41px;
     margin-top:20px;
     margin-left:24px;
   }
   .header-text p{
     font-family:'源ノ角ゴシックJP';
-    font-size:14px;
+    font-size:1.4rem;
     font-weight: normal;
   }
-  .header-button{
+  .header-button-pc{
     margin-top:13px;
     background-color:#0D67FF;
     height:56px; 
-    width:334px;
-    margin-left:320px;
+    width:26%;
+    margin-left:25%;
     border-radius:5px;
     line-height:56px;
     text-align: center;
     float:left;
   }
-  .header-button a {
+  .header-button-pc a {
     font-family:'源ノ角ゴシック';
     font-size:16px;
     vertical-align: middle; 
     font-weight: bold;
     color:white;
+  }
+  .header-button-sp{
+    display:none;
   }
   .main-top{
     width: 577px;
@@ -70,14 +76,15 @@
     width: 100%;;
     height: 800px;
     background-image:url(img/bg_wave1.png);
+    background-repeat: no-repeat;
     background-size:112%;
     background-position: center;
     overflow: hidden;
   }
   .main-left{
-    width:508px;
+    width:39.6%;
     height:423px;
-    margin-left:112px;
+    margin-left:8.75%;
     margin-top:251px;
     float: left;
   }
@@ -86,6 +93,9 @@
     font-size:40px;
     color:#4B4B4B;
     font-weight: bold;
+  }
+  .main-left h2{
+    display:none;
   }
   .main-text{
     width:356px;
@@ -97,6 +107,9 @@
     font-size:28px;
     color:#4B4B4B;
     font-weight: bold;
+  }
+  .main-text-sp{
+    display:none;
   }
   
   .main-button{
@@ -117,9 +130,16 @@
   }
   .main-right{
     height:601px;
-    width:600px;
+    width:46.8%;
     margin-top:91px;
     float: left;
+  }
+  .main-right-sp{
+    display: none;
+  }
+  .main-right img{
+    width:96%;
+    height:100%;
   }
   .main-visual2{
     width: 100%;;
@@ -206,6 +226,7 @@
     width: 100%;;
     height: 740px;
     background-image:url(img/bg_wave2.png);
+    background-repeat: no-repeat;
     background-size:112%;
     background-position: center;
     overflow: hidden;
@@ -244,7 +265,7 @@
   }
   .main3-title1{
     margin-top:39px;
-    margin-left:182px;
+    margin-left:14.2%;
     width:394px;
     height: 71px;
   }
@@ -258,7 +279,7 @@
   .main3-title3{
     width:394px;
     height:71px;
-    margin-left:743px;
+    margin-left:58%;
     margin-top:40px;
   }
   .main-visual4{
@@ -631,7 +652,7 @@
     height: 155px;
     position: relative;
     margin-top:74px;
-    margin-left:542px;
+    margin-left:42.3%;
   }
   .icon{
     margin-top:6px;
@@ -709,5 +730,115 @@
     float:left;
   }
   /*1246*/
- 
+  @media screen and (max-width:768px) {
+   
+  }
+  /* スマートフォンサイズ（425px）以下の際に適用される設定 */
+  @media screen and (max-width:768px) {
+    .header{
+      z-index: 1;
+    }
+    .header-text{
+      display:none;
+    }
+    .header-button-pc{
+      display: none;
+    }
+    .logo-top{
+      width:32%;
+    }
+    .header-button-sp{
+      margin-left:15.2%;
+      margin-top:15px;
+      background-color:#0D67FF;
+      height:48px;; 
+      width:42%;
+      border-radius:5px;
+      line-height:48px;
+      text-align: center;
+      float:left;
+      display: block;
+    }
+    .header-button-sp a {
+      font-family:'源ノ角ゴシック';
+      font-size:16px;
+      vertical-align: middle; 
+      font-weight: bold;
+      color:white;
+    }
+    .main-visual{
+      background-image:url(img/sp-wave1.png);
+      background-repeat: no-repeat;
+      background-position: right 20% top 35%;
+      background-size:115%;
+     
+    }
+    .main-left{
+      margin-top:133px;
+      width:53.3%;
+      height:177px;
+      float:left;
+      position: relative;
+    }
+    .main-left h1{
+      display:none;
+    }
+    .main-left h2{
+    font-size:2.8em;
+    font-family:'源ノ角ゴシック';
+    color:#4B4B4B;
+    font-weight: bold;
+    line-height:180%;
+    display:block;
+    }
+    .main-text{
+      display:none;
+    }
+    .main-text-sp{
+      margin-top:200px;
+      line-height:400%; 
+      text-align:center;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+    }
+   .main-text-sp p{
+     font-size:20px;
+     font-family:'源ノ角ゴシック';
+    color:#4B4B4B;
+    font-weight: bold;
+   }
+   .square1{
+    margin-left:128px;
+    width:4px;
+    height: 4px;
+    background-color:#F6404F;
+    float:left;
+  }
+  .square{
+    margin-left:15px;
+    width:4px;
+    height: 4px;
+    background-color:#F6404F;
+    float:left;
+  }
+    .main-right{
+      display:none;
+    }
+    .main-right-sp
+    {
+      height:312px;
+      width:100px;
+      top:190px;
+      left:33px;
+      position: absolute;
+      display: block;
+      
+    }
+   .main-button{
+     display:none;
+   }
+
+  }
+  /*375*/
   
