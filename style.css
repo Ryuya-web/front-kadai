@@ -152,7 +152,7 @@
       
   }
   .main2-top{
-    width: 46.09%;
+    width: 590px;
     height: 109px;
     margin-top:78px;    
     margin-right: auto;
@@ -312,6 +312,9 @@
     margin-right: auto;
     margin-top:34px;
   }
+  .triangle-sp{
+    display:none;
+  }
   .main4-title{
     margin-top:40px;
     width:207px;
@@ -449,7 +452,7 @@
 
   }
   .main5-box-img img{
-    margin-left: 76px;
+    margin-left: 60px;
     margin-top:16px;
   }
   .main5-box{
@@ -472,7 +475,7 @@
     height:56px;
     margin-right: auto;
     margin-left:auto;
-    background-color:aqua;
+   
   }
   .main-visual6{
     width: 100%;;
@@ -729,12 +732,16 @@
     background-color:#F6404F;
     float:left;
   }
+  .tv-img-sp{
+    display:none;
+   
+  }
   /*1246*/
   @media screen and (max-width:768px) {
    
   }
   /* スマートフォンサイズ（425px）以下の際に適用される設定 */
-  @media screen and (max-width:768px) {
+  @media screen and (max-width:769px) {
     .header{
       z-index: 1;
     }
@@ -840,15 +847,20 @@
      display:none;
    }
    .container {
-    flex-wrap: wrap;
+    display:block;
   }
   .main-visual2{
-    height: 1516px;
+    height: 1480px;
   }
   .main2-top{
     width:307px;
     height: 60px;
     margin-top:0px;
+  }
+  .main2-box-img{
+  
+    margin-top:10px;
+   
   }
   .dig{
     height:60px;
@@ -865,10 +877,192 @@
     margin-left:auto;
     margin-right:auto;
   }
+  .main2-box2{
+    margin-left:auto;
+    margin-right:auto;
+  }
   .main2-box3{
     margin-left:auto;
     margin-right:auto;
   }
+  .main-visual3{
+    background-image:url(img/sp-wave2.png);
+    background-repeat: no-repeat;
+    background-position: right 40% top 90%;
+    background-size:115%;
+    height:600px;
+  }
+  .main3-top{
+    width:310px;
+    height:59px;
+  }
+  .main3-top h1{
+    font-size:20px;
+  }
+  .red-line{
+    width:24px;
+    margin-top:29px;
+  }
+  .main3-title1{
+    width:290px;
+    height:49px;
+    margin-right: auto;
+    margin-left:auto;
+  }
+  .main3-title2{
+    width:290px;
+    height:49px;
+    margin-right: auto;
+    margin-left:auto;
+  }
+  .main3-title3{
+    width:290px;
+    height:49px;
+    margin-right: auto;
+    margin-left:auto;
+  }
+  .main3-title-text{
+    margin-top:20px;
+    width:224px;
+    height:48px;
+    font-size:16px;
+  }
+  .angular{
+    width:29px;
+    height: 74px;
+  }
+  .triangle1{
+    border-left: 14.5px solid transparent;
+    border-right: 14.5px solid transparent;
+    border-top: 14.5px solid #0D67FF;
+  }
+  .triangle2{
+    border-left: 14.5px solid transparent;
+    border-right: 14.5px solid transparent;
+    border-top: 14.5px solid #0D67FF;
+    margin-top:14px;
+  }
+  .triangle-sp{
+    border-left: 14.5px solid transparent;
+    border-right: 14.5px solid transparent;
+    border-top: 14.5px solid #0D67FF;
+    margin-top: 14px;
+    display: block;
+  }
+  .main4-left{
+    float:none;
+    width:100%;
+    margin-left:auto;
+    margin-top:0px;
+
+  }
+  .main4-title{
+    margin-top:32px;
+    width:103px;
+    height:20px;
+  }
+  .main4-title h3{
+    font-size:14px;
+  }
+  .main4-title2 {
+    width:280px;
+    height: 100px;
+    margin:0 auto;
+  }
+  .main4-title2 h1{
+    font-size:28px;
+    text-align: center;
+
+  }
+  .circle1{
+    margin-left:15px;
+    width:4px;
+    height: 4px;
+  }
+  .circle{
+    margin-left:22px;
+    width:4px;
+    height: 4px;
+  }
+  .main4-button{
+    display:none;
+  }
+  .main4-right{
+    display:none;
+  }
+  .tv-img-sp{
+    display:block;
+   
+  }
+  .tv-img-sp img{
+    width:300px;
+    height:237px;
+    margin-left:30px;
+  }
+  .main4-content{
+    width:318px;
+    height: 104px;
+    margin-left:30px;
+    margin-top:30px;
+  }
+  .main4-content p{
+    font-size:14px;
+    line-height: 200%;
+  }
+  .main-visual5{
+    width: 100%;
+    height: 1480px;
+    overflow: hidden;
+    }
+ .main5-title{
+   margin-top:0px;
+   width:240px;
+   height:50px;
+ }
+ .main5-top-text h1{
+   width:190px;
+   height:59px;
+   font-size:20px;
+ }
+ .main5-container {
+  display:block;
+ }
+ .main5-box{
+   margin-right: auto;
+   margin-left: auto;
+   margin-top:100px;
+ }
+ .main5-box2{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:70px;
+}
+.main5-box2{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:70px;
+}
+.main2-box-text{
+  line-height: 200%;
+}
+.main6-title{
+  margin-top:80px;
+  width:276px;
+  height: 59px;
+}
+.main6-title h1{
+  font-size:20px;
+}
+.main6-container{
+  display:block;
+  margin-top:32px;
+}
+.main6-box{
+  width:100px;
+  height:102px;
+  margin-left:auto;
+  margin-right: auto;
+}
 }
  
   /*375*/
