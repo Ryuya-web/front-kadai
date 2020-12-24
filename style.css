@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  html{
-    font-size:62.5%;
-  }
+ 
   .clearfix:after {
     visibility: hidden;
     display: block;
@@ -36,7 +34,7 @@
   }
   .header-text p{
     font-family:'源ノ角ゴシックJP';
-    font-size:1.4rem;
+    font-size:14px;
     font-weight: normal;
   }
   .header-button-pc{
@@ -329,10 +327,10 @@
     color:#4B4B4B;
   }
   .main4-left{
-    width:480px;
+    width:37.5%;
     height:416px;
     margin-top:48px;
-    margin-left: 108px;
+    margin-left: 8.4%;
     float: left;
   }
   .main4-title2{
@@ -376,8 +374,12 @@
     width:42%;
     height:416px;
     margin-top:48px;
-    margin-left: 70px;
+    margin-left: 5.3%;
     float: left;
+  }
+  .main4-right img{
+    width:100%;
+    height:416px;
   }
   .main-visual5{
     width: 100%;
@@ -515,14 +517,14 @@
     color:#4B4B4B;
   }
   .main6-number{
-    width:47px;
+    width:37.2%;
     height: 116px;
     margin-left:28px;
     float: left;
   }
   .main6-img{
-    width:22px;
-    height:116px;
+    width:17.46%;
+    height:100%;
     float: left;
   }
   .main6-img img{
@@ -737,9 +739,7 @@
    
   }
   /*1246*/
-  @media screen and (max-width:768px) {
-   
-  }
+  
   /* スマートフォンサイズ（425px）以下の際に適用される設定 */
   @media screen and (max-width:769px) {
     .header{
@@ -777,7 +777,7 @@
       background-image:url(img/sp-wave1.png);
       background-repeat: no-repeat;
       background-position: right 75% top 70%;
-      background-size:112% auto;
+      background-size:120% 550px;
       height:667px;
      
     }
@@ -809,7 +809,7 @@
     }
     .main-text-sp{
       margin-top:200px;
-      line-height:400%; 
+      line-height:200%; 
       text-align:center;
       display:block;
       margin-left:auto;
@@ -894,7 +894,7 @@
     background-image:url(img/sp-wave2.png);
     background-repeat: no-repeat;
     background-position: right 40% top 90%;
-    background-size:115%;
+    background-size:115% 580px;
     height:600px;
   }
   .main3-top{
@@ -1098,9 +1098,10 @@
   background-position: center;
   margin-right:auto;
   margin-left: auto;
+  overflow: hidden;
 }
 .main6-subtitle2{
-  width:84px;
+  width:22.5%;
   height: 20px;
   margin-left:auto;
   margin-right: auto;
@@ -1108,15 +1109,20 @@
 }
 .main6-subtitle2 p{
   font-size:14px;
-  
+  width:100%;
+  height: 100%;
+
 }
 .main6-img2{
   background-image: none;
+  margin-left:auto;
+  margin-right: auto;
+  width:131px;
 }
 .main6-number2 {
   width:99px;
   height:81px;
-  margin-left:135px;
+  margin-left:10px;
   margin-top:10px;
 }
 .main6-number2 img{
@@ -1178,6 +1184,21 @@
 .company p{
   margin-top:100px;
 }
+}
+@media screen and (max-width:374px) {
+   .main6-box2{
+     width:100%;
+   }
+   .main6-subtitle2 p{
+    font-size:12px;
+    width:100%;
+    height: 100%;
+  }
+ .main6-box3{
+   margin-left:0px;
+   padding-left:10px;
+ }  
+
 }
   /*375*/
   
