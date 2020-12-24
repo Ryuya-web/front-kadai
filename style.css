@@ -141,34 +141,34 @@
     width:96%;
     height:100%;
   }
-  .main-visual2{
+  .main2{
     width: 100%;;
     height: 743px;
     overflow: hidden;
   }
-  .container{
+  .main2__container{
       display: flex;
       justify-content: center;
       
   }
-  .main2-top{
+  .main2__top{
     width: 590px;
     height: 109px;
     margin-top:78px;    
     margin-right: auto;
     margin-left:auto;
   }
-  .dig{
+  .main2__dig{
       width:7.11%;
       height: 109px;
       background: linear-gradient(75deg, white, white 45.5%, #F6404F 45.5%,#F6404F 50.5%, white 50.5%, white);
       float:left;
   }
-  .main2-top-text{
+  .main2__title{
     text-align: center;
     color:#4B4B4B;
   }
-  .main2-top-text h1{
+  .main2__title-text{
     width:84%;
     height: 109px;
     font-family:'源ノ角ゴシック';
@@ -176,7 +176,7 @@
     font-weight: bold;
     float: left;
   }
-  .dig2{
+  .main2__dig2{
     width:7.11%;
     height: 109px;
     background: linear-gradient(105deg, white, white 45.5%, #F6404F 45.5%,#F6404F 50.5%, white 50.5%, white);
@@ -189,22 +189,22 @@
      margin-right:50px;
   }
   
-  .main2-box-title{
+  .main2-box__title{
     text-align: center;
     color:#4B4B4B;
   }
-  .main2-box-title h3{
+  .main2-box__title-text{
     font-family:'源ノ角ゴシック';
     font-size:20px;
     font-weight: bold;
     
   }
-  .main2-box-img{
+  .main2-box__figure{
     width:176px;
     margin-top:50px;
     margin-left:30px;
   }
-  .main2-box-text{
+  .main2-box__content{
     margin-top:18px;
     font-family:'源ノ角ゴシック';
     font-size:14px;
@@ -216,13 +216,57 @@
     height: 410px;
     margin-top:67px;
   }
+  .main2-box2__title{
+    text-align: center;
+    color:#4B4B4B;
+  }
+  .main2-box2__title-text{
+    font-family:'源ノ角ゴシック';
+    font-size:20px;
+    font-weight: bold;
+    
+  }
+  .main2-box2__figure{
+    width:176px;
+    margin-top:50px;
+    margin-left:30px;
+  }
+  .main2-box2__content{
+    margin-top:18px;
+    font-family:'源ノ角ゴシック';
+    font-size:14px;
+    font-weight: normal;
+    color:#4B4B4B;
+  }
 .main2-box3{
     width:322px;
     height: 410px;
     margin-top:67px;
     margin-left:50px;
 }
-  .main-visual3{
+.main2-box3__title{
+  text-align: center;
+  color:#4B4B4B;
+}
+.main2-box3__title-text{
+  font-family:'源ノ角ゴシック';
+  font-size:20px;
+  font-weight: bold;
+  
+}
+.main2-box3__figure{
+  width:176px;
+  margin-top:50px;
+  margin-left:30px;
+}
+.main2-box3__content{
+  margin-top:18px;
+  font-family:'源ノ角ゴシック';
+  font-size:14px;
+  font-weight: normal;
+  color:#4B4B4B;
+}
+  .main3{
     width: 100%;;
     height: 740px;
     background-image:url(img/bg_wave2.png);
@@ -239,11 +283,20 @@
     margin-top:143px;
     text-align: center;
   }
-  .main3-top h1{
+  .main3-top__title{
     font-family:'源ノ角ゴシック';
     font-size:35px;
     font-weight: bold;
     color:#4B4B4B;
+  }
+  .main3__red-line{
+    height:4px;
+    width:74px;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: 44px;
+    background-color: red;
+    border-radius:20%;
   }
   .main3-title-img{
     width:48px;
@@ -263,24 +316,78 @@
     color:#4B4B4B;
 
   }
-  .main3-title1{
+  .main3-content1{
     margin-top:39px;
     margin-left:14.2%;
     width:394px;
     height: 71px;
   }
-  .main3-title2{
+  .main3-content1__figure{
+    width:48px;
+    height:48px;
+    margin-top:17px;
+    float: left;
+  }
+  .main3-content1__subtitle{
+    width:336px;
+    height: 71px;
+    margin-left:10px;
+    margin-top:8px;
+    font-family:'源ノ角ゴシック';
+    float: left;
+    font-size:24px;
+    font-weight: bold;
+    color:#4B4B4B;
+
+  }
+  .main3-content2{
     margin:0 auto;
     width:394px;
     height:71px;
     margin-top:40px;
 
   }
-  .main3-title3{
+  .main3-content2__figure{
+    width:48px;
+    height:48px;
+    margin-top:17px;
+    float: left;
+  }
+  .main3-content2__subtitle{
+    width:336px;
+    height: 71px;
+    margin-left:10px;
+    margin-top:8px;
+    font-family:'源ノ角ゴシック';
+    float: left;
+    font-size:24px;
+    font-weight: bold;
+    color:#4B4B4B;
+
+  }
+  .main3-content3{
     width:394px;
     height:71px;
     margin-left:58%;
     margin-top:40px;
+  }
+  .main3-content3__figure{
+    width:48px;
+    height:48px;
+    margin-top:17px;
+    float: left;
+  }
+  .main3-content3__subtitle{
+    width:336px;
+    height: 71px;
+    margin-left:10px;
+    margin-top:8px;
+    font-family:'源ノ角ゴシック';
+    float: left;
+    font-size:24px;
+    font-weight: bold;
+    color:#4B4B4B;
+
   }
   .main-visual4{
     width: 100%;;
@@ -736,16 +843,16 @@
     .header{
       z-index: 1;
     }
-    .header-text{
+    .header__subtitle{
       display:none;
     }
-    .header-button-pc{
+    .header__button--pc{
       display: none;
     }
-    .logo-top{
+    .header__figure{
       width:32%;
     }
-    .header-button-sp{
+    .header__button--sp{
       margin-left:15.2%;
       margin-top:15px;
       background-color:#0D67FF;
@@ -757,14 +864,14 @@
       float:left;
       display: block;
     }
-    .header-button-sp a {
+    .header__link--sp {
       font-family:'源ノ角ゴシック';
       font-size:16px;
       vertical-align: middle; 
       font-weight: bold;
       color:white;
     }
-    .main-visual{
+    .main1{
       background-image:url(img/sp-wave1.png);
       background-repeat: no-repeat;
       background-position: right 75% top 70%;
@@ -772,22 +879,22 @@
       height:667px;
      
     }
-    .main-visual-content{
+    .main1__body{
       width:373px;
       margin-right:auto;
       margin-left:auto;
       position:relative;
     }
-    .main-left{
+    .main1__left{
       margin-top:133px;
       width:53.3%;
       height:177px;
       float:left;
     }
-    .main-left h1{
+    .main1__title--pc{
       display:none;
     }
-    .main-left h2{
+    .main1__title--sp{
     font-size:28px;
     font-family:'源ノ角ゴシック';
     color:#4B4B4B;
@@ -795,10 +902,10 @@
     line-height:180%;
     display:block;
     }
-    .main-text{
+    .main1__body--pc{
       display:none;
     }
-    .main-text-sp{
+    .main1__body--sp{
       margin-top:200px;
       line-height:200%; 
       text-align:center;
@@ -806,31 +913,31 @@
       margin-left:auto;
       margin-right:auto;
     }
-   .main-text-sp p{
+   .main1__subtitle--sp{
      font-size:20px;
      font-family:'源ノ角ゴシック';
     color:#4B4B4B;
     font-weight: bold;
     letter-spacing: 2px;
    }
-   .square1{
+   .main1__square1{
     margin-left:120px;
     width:4px;
     height: 4px;
     background-color:#F6404F;
     float:left;
   }
-  .square{
+  .main1__square{
     margin-left:17px;
     width:4px;
     height: 4px;
     background-color:#F6404F;
     float:left;
   }
-    .main-right{
+    .main1__right--pc{
       display:none;
     }
-    .main-right-sp{
+    .main1__right--sp{
       height:312px;
       width:344px;
       top:190px;
@@ -839,32 +946,32 @@
       display: block;
       
     }
-   .main-button{
+   .main1__button{
      display:none;
    }
-   .container {
+   .main2__container {
     display:block;
   }
-  .main-visual2{
+  .main2{
     height: 1480px;
   }
-  .main2-top{
+  .main2__top{
     width:307px;
     height: 60px;
     margin-top:0px;
   }
-  .main2-box-img{
+  .main2-box__figure{
   
     margin-top:10px;
    
   }
-  .dig{
+  .main2__dig{
     height:60px;
   }
-  .dig2{
+  .main2__dig2{
     height:60px;
   }
-  .main2-top-text h1{
+  .main2__title-text {
     width:260px;
     height:60px;
     font-size:20px;
@@ -881,7 +988,7 @@
     margin-left:auto;
     margin-right:auto;
   }
-  .main-visual3{
+  .main3{
     background-image:url(img/sp-wave2.png);
     background-repeat: no-repeat;
     background-position: right 40% top 90%;
@@ -892,37 +999,50 @@
     width:310px;
     height:59px;
   }
-  .main3-top h1{
+  .main3-top__title{
     font-size:20px;
   }
-  .red-line{
+  .main3__red-line{
     width:24px;
     margin-top:29px;
   }
-  .main3-title1{
+  .main3-content1{
     width:290px;
     height:49px;
     margin-right: auto;
     margin-left:auto;
   }
-  .main3-title2{
-    width:290px;
-    height:49px;
-    margin-right: auto;
-    margin-left:auto;
-  }
-  .main3-title3{
-    width:290px;
-    height:49px;
-    margin-right: auto;
-    margin-left:auto;
-  }
-  .main3-title-text{
+  .main3-content1__subtitle{
     margin-top:20px;
     width:224px;
     height:48px;
     font-size:16px;
   }
+  .main3-content2{
+    width:290px;
+    height:49px;
+    margin-right: auto;
+    margin-left:auto;
+  }
+  .main3-content2__subtitle{
+    margin-top:20px;
+    width:224px;
+    height:48px;
+    font-size:16px;
+  }
+  .main3-content3{
+    width:290px;
+    height:49px;
+    margin-right: auto;
+    margin-left:auto;
+  }
+  .main3-content3__subtitle{
+    margin-top:20px;
+    width:224px;
+    height:48px;
+    font-size:16px;
+  }
+  
   .angular{
     width:29px;
     height: 74px;
