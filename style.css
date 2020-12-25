@@ -693,7 +693,7 @@
     color:#4B4B4B;
   }
   
-  .main6-img2{
+  .main6__item2{
     background-image:url(img/bg_people.png);
     background-position: center;
     width:100%;
@@ -701,56 +701,57 @@
     margin-top:14px;
     background-repeat: no-repeat;
   }
-  .main6-number2{
+  .main6__number2{
     width:141px;
     height:120px;
     margin-left:27.6%;
     float: left;
   }
-  .main6-number2 img{
+  .main6__number2-image{
     width:141px;
     height:120px;
     display: block;
   }
-  .yen p{
+  .main6__unit-text{
     float: left;
     margin-top:75px;
     font-size:18px;
     font-weight: normal;
     color:#4B4B4B;
   }
-  .main6-subtitle3{
+  .main6__box3{
+    width:289px;
+    height:143px;
+    margin-left:39px;
+  }
+  .main6__subtitle3{
     margin-left:80px;
   }
-  .main6-subtitle3 p{
+  .main6__subtitle3-text{
     font-family:'源ノ角ゴシック';
     font-size:18px;
     font-weight: normal;
     color:#4B4B4B;
   }
-  .main6-box3{
-    width:289px;
-    height:143px;
-    margin-left:39px;
-  }
-  .main6-number3{
+  
+  .main6__number3{
     margin-left: 60px;
     margin-top:10px;
   }
-  .main6-number3 img{
+  .main6__number3-image{
     width:141px;
     height:120px;
     display: block;
     float:left;
   }
-  .ken{
+  .main6__unit2{
     float: left;
     margin-top:75px;
     font-size:18px;
     font-weight: normal;
     color:#4B4B4B;
   }
-  .main6-img3{
+  .main6__item3{
     background-image:url(img/comment.png);
     background-repeat: repeat-x;
     background-position: 0% 100%;
@@ -759,49 +760,51 @@
     margin-top:14px;
   }
 
-  footer{
+  .footer{
       height:300px;
       width: 100%;;
       background-color: white;
       overflow: hidden;
       
   }
-  .footer-title p{
-    font-family:'源ノ角ゴシック';
-    font-size:14px;
-    font-weight: normal;
-    color:#4B4B4B;
-  }
-  .company{
-    margin-left:31px;
-    margin-top:60px;
-  }
-  .company p{
-    font-family:'源ノ角ゴシック';
-    font-size:14px;
-    font-weight: normal;
-    color:#4B4B4B;
-  }
-  
-  .footer-content{
+  .footer__content{
     width:518px;
     height: 155px;
     position: relative;
     margin-top:74px;
     margin-left:42.3%;
   }
-  .icon{
+  .footer__title-text{
+    font-family:'源ノ角ゴシック';
+    font-size:14px;
+    font-weight: normal;
+    color:#4B4B4B;
+  }
+  .footer__icon{
     margin-top:6px;
     margin-left:31px;
   }
-  .footer-content2{
+  .footer__company{
+    margin-left:31px;
+    margin-top:60px;
+  }
+  .footer__company-name{
+    font-family:'源ノ角ゴシック';
+    font-size:14px;
+    font-weight: normal;
+    color:#4B4B4B;
+  }
+  
+ 
+  
+  .footer__content2{
     top:134px;
     left:356px;
     position: absolute;
     width:161px;
     height: 20px;
   }
-  .arrow01 {
+  .footer__arrow01 {
     display: block;
     width: 10px;
     margin-top:7px;
@@ -812,18 +815,18 @@
     transform: rotate(45deg);
     float: left;
   }
-  .footer-link{
+  .footer__link{
     float: left;
     margin-left:9px;
     margin-top:2px;
   }
-  .footer-link a{
+  .footer__link-text{
     font-family:'源ノ角ゴシック';
     font-size:14px;
     font-weight: normal;
     color:#4B4B4B;
   }
-  .arrow02 {
+  .footer__arrow02 {
     display: block;
     width: 10px;
     margin-top:7px;
@@ -1262,88 +1265,88 @@
   height: 100%;
 
 }
-.main6-img2{
+.main6__item2{
   background-image: none;
   margin-left:auto;
   margin-right: auto;
   width:131px;
 }
-.main6-number2 {
+.main6__number2 {
   width:99px;
   height:81px;
   margin-left:10px;
   margin-top:10px;
 }
-.main6-number2 img{
+.main6__number2-image{
   width:99px;
   height:81px;
 }
-.yen p{
+.main6__unit-text{
   font-size:14px;
   margin-top:55px;
 }
-.main6-subtitle3{
+.main6__subtitle3{
   margin-left:auto;
   margin-right: auto;
   margin-top:20px;
   
 }
-.main6-subtitle3 p{
+.main6__subtitle3-text{
   margin-left:110px;
   font-size:14px;
 }
-.main6-box3{
+.main6__box3{
   width:350px;
   height:102px;
   padding-left:30px;
   margin-left:auto;
   margin-right: auto;
 }
-.main6-img3{
+.main6__item3{
   width:289px;
   height: 82px;
 }
 
-.main6-number3 img{
+.main6__number3-image{
   width:84px;
   height:81px;
 
 }
-.ken{
+.main6__unit2{
   margin-top:50px;
   font-size: 14px;
 }
-.main6-img3 {
+.main6__item3 {
   width:230px;
   height: 82px;
   margin-top:0px;
   margin-left:50px;
  
 }
-.footer-content{
+.footer__content{
   margin-left:auto;
   margin-right:auto;
   height: 190px;
   width:185px;
 }
-.footer-content2{
+.footer__content2{
   top:100px;
   left:10px;
 }
-.company p{
+.footer__company-name{
   margin-top:100px;
 }
 }
 @media screen and (max-width:355px) {
-   .main6-box2{
+   .main6__box2{
      width:100%;
    }
-   .main6-subtitle2 p{
+   .main6__subtitle2-text{
     font-size:12px;
     width:100%;
     height: 100%;
   }
- .main6-box3{
+ .main6__box3{
    margin-left:0px;
    padding-left:20px;
  }  
