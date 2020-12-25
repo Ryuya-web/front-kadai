@@ -168,7 +168,7 @@
     text-align: center;
     color:#4B4B4B;
   }
-  .main2__title-text{
+  .main2__titleText{
     width:84%;
     height: 109px;
     font-family:'源ノ角ゴシック';
@@ -189,22 +189,22 @@
      margin-right:50px;
   }
   
-  .main2__box-title{
+  .main2__boxTitle{
     text-align: center;
     color:#4B4B4B;
   }
-  .main2__box-text{
+  .main2__boxText{
     font-family:'源ノ角ゴシック';
     font-size:20px;
     font-weight: bold;
     
   }
-  .main2__box-figure{
+  .main2__boxFigure{
     width:176px;
     margin-top:50px;
     margin-left:30px;
   }
-  .main2__box-content{
+  .main2__boxContent{
     margin-top:18px;
     font-family:'源ノ角ゴシック';
     font-size:14px;
@@ -216,22 +216,22 @@
     height: 410px;
     margin-top:67px;
   }
-  .main2__box2-title{
+  .main2__box2Title{
     text-align: center;
     color:#4B4B4B;
   }
-  .main2__box2-text{
+  .main2__box2Text{
     font-family:'源ノ角ゴシック';
     font-size:20px;
     font-weight: bold;
     
   }
-  .main2__box2-figure{
+  .main2__box2Figure{
     width:176px;
     margin-top:50px;
     margin-left:30px;
   }
-  .main2__box2-content{
+  .main2__box2Content{
     margin-top:18px;
     font-family:'源ノ角ゴシック';
     font-size:14px;
@@ -244,22 +244,22 @@
     margin-top:67px;
     margin-left:50px;
 }
-.main2__box3-title{
+.main2__box3Title{
   text-align: center;
   color:#4B4B4B;
 }
-.main2__box3-text{
+.main2__box3Text{
   font-family:'源ノ角ゴシック';
   font-size:20px;
   font-weight: bold;
   
 }
-.main2__box3-figure{
+.main2__box3Figure{
   width:176px;
   margin-top:50px;
   margin-left:30px;
 }
-.main2__box3-content{
+.main2__box3Content{
   margin-top:18px;
   font-family:'源ノ角ゴシック';
   font-size:14px;
@@ -283,13 +283,13 @@
     margin-top:143px;
     text-align: center;
   }
-  .main3__top-title{
+  .main3__topTitle{
     font-family:'源ノ角ゴシック';
     font-size:35px;
     font-weight: bold;
     color:#4B4B4B;
   }
-  .main3__red-line{
+  .main3__redLine{
     height:4px;
     width:74px;
     margin-right: auto;
@@ -305,13 +305,13 @@
     width:394px;
     height: 71px;
   }
-  .main3__content1-figure{
+  .main3__content1Figure{
     width:48px;
     height:48px;
     margin-top:17px;
     float: left;
   }
-  .main3__content1-subtitle{
+  .main3__content1Subtitle{
     width:336px;
     height: 71px;
     margin-left:10px;
@@ -330,13 +330,13 @@
     margin-top:40px;
 
   }
-  .main3__content2-figure{
+  .main3__content2Figure{
     width:48px;
     height:48px;
     margin-top:17px;
     float: left;
   }
-  .main3__content2-subtitle{
+  .main3__content2Subtitle{
     width:336px;
     height: 71px;
     margin-left:10px;
@@ -354,13 +354,13 @@
     margin-left:58%;
     margin-top:40px;
   }
-  .main3__content3-figure{
+  .main3__content3Figure{
     width:48px;
     height:48px;
     margin-top:17px;
     float: left;
   }
-  .main3__content3-subtitle{
+  .main3__content3Subtitle{
     width:336px;
     height: 71px;
     margin-left:10px;
@@ -384,7 +384,7 @@
     margin-right: auto;
     margin-top:40px;
   }
-  .main4__item-triangle1{
+  .main4__itemTriangle1{
     width: 0;
     height: 0;
     border-left: 37px solid transparent;
@@ -392,7 +392,7 @@
     border-top: 37px solid #0D67FF;
     margin:0 auto;
   }
-  .main4__item-triangle2{
+  .main4__itemTriangle2{
     width: 0;
     height: 0;
     border-left: 37px solid transparent;
@@ -402,7 +402,7 @@
     margin-right: auto;
     margin-top:34px;
   }
-  .main4__item-triangle3--sp{
+  .main4__itemTriangle3--sp{
     display:none;
   }
   .main4__title{
@@ -412,7 +412,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .main4__title-text{
+  .main4__titleText{
     font-family:'源ノ角ゴシック';
     font-size:28px;
     font-weight: bold;
@@ -429,12 +429,28 @@
     width:480px;
     height: 142px;
   }
-  .main4__title2-text{
+  .main4__title2Text{
     font-family:'源ノ角ゴシック';
     font-size:48px;
     font-weight: bold;
     color:#0D67FF;
     text-shadow: 1px 2px 7px #aaaaaa;
+  }
+  .main4__circle1{
+    margin-left:19px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color:#F6404F;
+    float:left;
+  }
+  .main4__circle{
+    margin-left:39px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color:#F6404F;
+    float:left;
   }
   .main4__figure--sp{
     display:none;
@@ -445,7 +461,7 @@
     height: 142px;
     margin-top:40px;
   }
-  .main4__content-text{
+  .main4__contentText{
     font-family:'源ノ角ゴシックJP';
     font-size:20px;
     font-weight: normal;
@@ -459,7 +475,7 @@
     line-height:56px;
     text-align: center;
   }
-  .main4__button-link {
+  .main4__buttonLink {
     font-family:'源ノ角ゴシック';
     font-size:16px;
     vertical-align: middle; 
@@ -473,7 +489,7 @@
     margin-left: 5.3%;
     float: left;
   }
-  .main4__right-image{
+  .main4__rightImage{
     width:100%;
     height:416px;
   }
@@ -501,7 +517,7 @@
     text-align: center;
     color:#4B4B4B;
   }
-  .main5__title-text{
+  .main5__titleText{
     width:382px;
     height: 109px;
     font-family:'源ノ角ゴシック';
@@ -520,7 +536,7 @@
     justify-content: center;
     margin-top:65px;
   }
-  .main5__box-number{
+  .main5__boxNumber{
     width:42px;
     height:52px;
     margin-left:auto;
@@ -528,13 +544,13 @@
     margin-top:12px;
     
   }
-  .main5__box-title{
+  .main5__boxTitle{
     font-family:'源ノ角ゴシック';
     font-size:36px;
     font-weight: bold;
     color:#0D67FF;
   }
-  .main5__red-line2{
+  .main5__redLine2{
     height:4px;
     width:24px;
     margin-left:45.5%;
@@ -547,23 +563,23 @@
     width:99.3%;
     height: 53px;
   }
-  .main5-subtitle-text{
+  .main5-subtitleText{
     font-family: Helevetica Nune;
     font-size: 16px;
     font-weight: bold;
   }
-  .main5__box-figure{
+  .main5__boxFigure{
     width: 275px;
     height:160px;
     margin-top:20px;
     margin-left:auto;
     margin-right: auto
   }
-  .main5__box-image{
+  .main5__boxImage{
     margin-left: 60px;
     margin-top:16px;
   }
-  .main5__box-content{
+  .main5__boxContent{
     margin-top:18px;
     font-family:'源ノ角ゴシック';
     font-size:14px;
@@ -600,7 +616,7 @@
     line-height:56px;
     text-align: center;
   }
-  .main5__button-link {
+  .main5__buttonLink {
     font-family:'源ノ角ゴシック';
     font-size:16px;
     vertical-align: middle; 
@@ -634,13 +650,13 @@
     margin-left:auto;
     text-align:center;
   }
-  .main6__title-text{
+  .main6__titleText{
     font-family:'源ノ角ゴシック';
     font-size:36px;
     font-weight: bold;
     color:#4B4B4B;
   }
-  .main6__red-line{
+  .main6__redLine{
     height:4px;
     width:74px;
     margin-right: auto;
@@ -667,10 +683,10 @@
     margin-left:2%;
     float: left;
   }
-  .main6__item-image{
+  .main6__itemImage{
     margin-top:30px;
   }
-  .main6__item-text{
+  .main6__itemText{
     font-family:'源ノ角ゴシック';
     font-size:18px;
     font-weight: normal;
@@ -686,7 +702,7 @@
     height: 26px;
     margin-left:30.6%;
   }
-  .main6__subtitle2-text{
+  .main6__subtitle2Text{
     font-family:'源ノ角ゴシック';
     font-size:18px;
     font-weight: normal;
@@ -707,12 +723,12 @@
     margin-left:27.6%;
     float: left;
   }
-  .main6__number2-image{
+  .main6__number2Image{
     width:141px;
     height:120px;
     display: block;
   }
-  .main6__unit-text{
+  .main6__unitText{
     float: left;
     margin-top:75px;
     font-size:18px;
@@ -727,7 +743,7 @@
   .main6__subtitle3{
     margin-left:80px;
   }
-  .main6__subtitle3-text{
+  .main6__subtitle3Text{
     font-family:'源ノ角ゴシック';
     font-size:18px;
     font-weight: normal;
@@ -738,7 +754,7 @@
     margin-left: 60px;
     margin-top:10px;
   }
-  .main6__number3-image{
+  .main6__number3Image{
     width:141px;
     height:120px;
     display: block;
@@ -774,7 +790,7 @@
     margin-top:74px;
     margin-left:42.3%;
   }
-  .footer__title-text{
+  .footer__titleText{
     font-family:'源ノ角ゴシック';
     font-size:14px;
     font-weight: normal;
@@ -788,7 +804,7 @@
     margin-left:31px;
     margin-top:60px;
   }
-  .footer__company-name{
+  .footer__companyName{
     font-family:'源ノ角ゴシック';
     font-size:14px;
     font-weight: normal;
@@ -820,7 +836,7 @@
     margin-left:9px;
     margin-top:2px;
   }
-  .footer__link-text{
+  .footer__linkText{
     font-family:'源ノ角ゴシック';
     font-size:14px;
     font-weight: normal;
@@ -839,22 +855,7 @@
     float: left;
   }
   
-  .circle1{
-    margin-left:19px;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color:#F6404F;
-    float:left;
-  }
-  .circle{
-    margin-left:39px;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color:#F6404F;
-    float:left;
-  }
+  
   
   /*1246*/
   
@@ -980,7 +981,7 @@
     height: 60px;
     margin-top:0px;
   }
-  .main2-box__figure{
+  .main2-boxFigure{
   
     margin-top:10px;
    
@@ -991,7 +992,7 @@
   .main2__dig2{
     height:60px;
   }
-  .main2__title-text {
+  .main2__titleText {
     width:260px;
     height:60px;
     font-size:20px;
@@ -1019,10 +1020,10 @@
     width:310px;
     height:59px;
   }
-  .main3__top-title{
+  .main3__topTitle{
     font-size:20px;
   }
-  .main3__red-line{
+  .main3__redLine{
     width:24px;
     margin-top:29px;
   }
@@ -1032,7 +1033,7 @@
     margin-right: auto;
     margin-left:auto;
   }
-  .main3__content1-subtitle{
+  .main3__content1Subtitle{
     margin-top:20px;
     width:224px;
     height:48px;
@@ -1044,7 +1045,7 @@
     margin-right: auto;
     margin-left:auto;
   }
-  .main3__content2-subtitle{
+  .main3__content2Subtitle{
     margin-top:20px;
     width:224px;
     height:48px;
@@ -1056,7 +1057,7 @@
     margin-right: auto;
     margin-left:auto;
   }
-  .main3__content3-subtitle{
+  .main3__content3Subtitle{
     margin-top:20px;
     width:224px;
     height:48px;
@@ -1067,18 +1068,18 @@
     width:29px;
     height: 74px;
   }
-  .main4__item-triangle1{
+  .main4__itemTriangle1{
     border-left: 14.5px solid transparent;
     border-right: 14.5px solid transparent;
     border-top: 14.5px solid #0D67FF;
   }
-  .main4__item-triangle2{
+  .main4__itemTriangle2{
     border-left: 14.5px solid transparent;
     border-right: 14.5px solid transparent;
     border-top: 14.5px solid #0D67FF;
     margin-top:14px;
   }
-  .main4__item-triangle3--sp{
+  .main4__itemTriangle3--sp{
     border-left: 14.5px solid transparent;
     border-right: 14.5px solid transparent;
     border-top: 14.5px solid #0D67FF;
@@ -1097,7 +1098,7 @@
     width:103px;
     height:20px;
   }
-  .main4__title-text{
+  .main4__titleText{
     font-size:14px;
   }
   .main4__title2 {
@@ -1105,17 +1106,17 @@
     height: 100px;
     margin:0 auto;
   }
-  .main4__title2-text{
+  .main4__title2Text{
     font-size:28px;
     text-align: center;
 
   }
-  .circle1{
+  .main4__circle1{
     margin-left:15px;
     width:4px;
     height: 4px;
   }
-  .circle{
+  .main4__circle{
     margin-left:22px;
     width:4px;
     height: 4px;
@@ -1145,7 +1146,7 @@
     margin-right:auto;
     margin-top:30px;
   }
-  .main4__content-text{
+  .main4__contentText{
     font-size:14px;
     line-height: 200%;
   }
@@ -1166,7 +1167,7 @@
    height:50px;
  }
 
- .main5__title-text{
+ .main5__titleText{
    width:190px;
    height:59px;
    font-size:20px;
@@ -1196,7 +1197,7 @@
   width:325px;
     height: 405px;
 }
-.main5__box-content{
+.main5__boxContent{
   line-height: 200%;
 }
 .main5__button{
@@ -1207,10 +1208,10 @@
   width:276px;
   height: 59px;
 }
-.main6__title-text{
+.main6__titleText{
   font-size:20px;
 }
-.main6__red-line{
+.main6__redLine{
   width:24px;
   margin-top:29px;
 }
@@ -1231,15 +1232,15 @@
   width:38px;
   height:90px;
 }
-.main6__number-image{
+.main6__numberImage{
   width:33px;
   height:81px;
   margin-left:5px;
 }
-.main6__item-image{
+.main6__itemImage{
   margin-top:15px;
 }
-.main6__item-text{
+.main6__itemText{
   font-size:14px;
   margin-top:15px;
 }
@@ -1259,7 +1260,7 @@
   margin-right: auto;
   margin-top:20px;
 }
-.main6__subtitle2-text{
+.main6__subtitle2Text{
   font-size:14px;
   width:100%;
   height: 100%;
@@ -1277,11 +1278,11 @@
   margin-left:10px;
   margin-top:10px;
 }
-.main6__number2-image{
+.main6__number2Image{
   width:99px;
   height:81px;
 }
-.main6__unit-text{
+.main6__unitText{
   font-size:14px;
   margin-top:55px;
 }
@@ -1291,7 +1292,7 @@
   margin-top:20px;
   
 }
-.main6__subtitle3-text{
+.main6__subtitle3Text{
   margin-left:110px;
   font-size:14px;
 }
@@ -1307,7 +1308,7 @@
   height: 82px;
 }
 
-.main6__number3-image{
+.main6__number3Image{
   width:84px;
   height:81px;
 
@@ -1333,7 +1334,7 @@
   top:100px;
   left:10px;
 }
-.footer__company-name{
+.footer__companyName{
   margin-top:100px;
 }
 }
@@ -1341,7 +1342,7 @@
    .main6__box2{
      width:100%;
    }
-   .main6__subtitle2-text{
+   .main6__subtitle2Text{
     font-size:12px;
     width:100%;
     height: 100%;
