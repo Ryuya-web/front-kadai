@@ -182,84 +182,84 @@
     background: linear-gradient(105deg, white, white 45.5%, #F6404F 45.5%,#F6404F 50.5%, white 50.5%, white);
     float:left;
   }
-  .main2-box{
+  .main2__box{
       width:322px;
       height: 410px;
       margin-top:67px;
      margin-right:50px;
   }
   
-  .main2-box__title{
+  .main2__box-title{
     text-align: center;
     color:#4B4B4B;
   }
-  .main2-box__title-text{
+  .main2__box-text{
     font-family:'源ノ角ゴシック';
     font-size:20px;
     font-weight: bold;
     
   }
-  .main2-box__figure{
+  .main2__box-figure{
     width:176px;
     margin-top:50px;
     margin-left:30px;
   }
-  .main2-box__content{
+  .main2__box-content{
     margin-top:18px;
     font-family:'源ノ角ゴシック';
     font-size:14px;
     font-weight: normal;
     color:#4B4B4B;
   }
-  .main2-box2{
+  .main2__box2{
     width:322px;
     height: 410px;
     margin-top:67px;
   }
-  .main2-box2__title{
+  .main2__box2-title{
     text-align: center;
     color:#4B4B4B;
   }
-  .main2-box2__title-text{
+  .main2__box2-text{
     font-family:'源ノ角ゴシック';
     font-size:20px;
     font-weight: bold;
     
   }
-  .main2-box2__figure{
+  .main2__box2-figure{
     width:176px;
     margin-top:50px;
     margin-left:30px;
   }
-  .main2-box2__content{
+  .main2__box2-content{
     margin-top:18px;
     font-family:'源ノ角ゴシック';
     font-size:14px;
     font-weight: normal;
     color:#4B4B4B;
   }
-.main2-box3{
+.main2__box3{
     width:322px;
     height: 410px;
     margin-top:67px;
     margin-left:50px;
 }
-.main2-box3__title{
+.main2__box3-title{
   text-align: center;
   color:#4B4B4B;
 }
-.main2-box3__title-text{
+.main2__box3-text{
   font-family:'源ノ角ゴシック';
   font-size:20px;
   font-weight: bold;
   
 }
-.main2-box3__figure{
+.main2__box3-figure{
   width:176px;
   margin-top:50px;
   margin-left:30px;
 }
-.main2-box3__content{
+.main2__box3-content{
   margin-top:18px;
   font-family:'源ノ角ゴシック';
   font-size:14px;
@@ -275,7 +275,7 @@
     background-position: center;
     overflow: hidden;
   }
-  .main3-top{
+  .main3__top{
     width:548px;
     height: 106px;
     margin-right: auto;
@@ -283,7 +283,7 @@
     margin-top:143px;
     text-align: center;
   }
-  .main3-top__title{
+  .main3__top-title{
     font-family:'源ノ角ゴシック';
     font-size:35px;
     font-weight: bold;
@@ -298,37 +298,20 @@
     background-color: red;
     border-radius:20%;
   }
-  .main3-title-img{
-    width:48px;
-    height:48px;
-    margin-top:17px;
-    float: left;
-  }
-  .main3-title-text{
-    width:336px;
-    height: 71px;
-    margin-left:10px;
-    margin-top:8px;
-    font-family:'源ノ角ゴシック';
-    float: left;
-    font-size:24px;
-    font-weight: bold;
-    color:#4B4B4B;
-
-  }
-  .main3-content1{
+ 
+  .main3__content1{
     margin-top:39px;
     margin-left:14.2%;
     width:394px;
     height: 71px;
   }
-  .main3-content1__figure{
+  .main3__content1-figure{
     width:48px;
     height:48px;
     margin-top:17px;
     float: left;
   }
-  .main3-content1__subtitle{
+  .main3__content1-subtitle{
     width:336px;
     height: 71px;
     margin-left:10px;
@@ -340,20 +323,20 @@
     color:#4B4B4B;
 
   }
-  .main3-content2{
+  .main3__content2{
     margin:0 auto;
     width:394px;
     height:71px;
     margin-top:40px;
 
   }
-  .main3-content2__figure{
+  .main3__content2-figure{
     width:48px;
     height:48px;
     margin-top:17px;
     float: left;
   }
-  .main3-content2__subtitle{
+  .main3__content2-subtitle{
     width:336px;
     height: 71px;
     margin-left:10px;
@@ -365,19 +348,19 @@
     color:#4B4B4B;
 
   }
-  .main3-content3{
+  .main3__content3{
     width:394px;
     height:71px;
     margin-left:58%;
     margin-top:40px;
   }
-  .main3-content3__figure{
+  .main3__content3-figure{
     width:48px;
     height:48px;
     margin-top:17px;
     float: left;
   }
-  .main3-content3__subtitle{
+  .main3__content3-subtitle{
     width:336px;
     height: 71px;
     margin-left:10px;
@@ -389,19 +372,19 @@
     color:#4B4B4B;
 
   }
-  .main-visual4{
+  .main4{
     width: 100%;;
     height: 740px;
     overflow: hidden;
   }
-  .angular{
+  .main4__item{
     width:74px;
     height: 100px;
     margin-left:auto;
     margin-right: auto;
     margin-top:40px;
   }
-  .triangle1{
+  .main4__item-triangle1{
     width: 0;
     height: 0;
     border-left: 37px solid transparent;
@@ -409,7 +392,7 @@
     border-top: 37px solid #0D67FF;
     margin:0 auto;
   }
-  .triangle2{
+  .main4__item-triangle2{
     width: 0;
     height: 0;
     border-left: 37px solid transparent;
@@ -419,51 +402,55 @@
     margin-right: auto;
     margin-top:34px;
   }
-  .triangle-sp{
+  .main4__item-triangle3--sp{
     display:none;
   }
-  .main4-title{
+  .main4__title{
     margin-top:40px;
     width:207px;
     height: 40px;
     margin-left: auto;
     margin-right: auto;
   }
-  .main4-title h3{
+  .main4__title-text{
     font-family:'源ノ角ゴシック';
     font-size:28px;
     font-weight: bold;
     color:#4B4B4B;
   }
-  .main4-left{
+  .main4__left{
     width:37.5%;
     height:416px;
     margin-top:48px;
     margin-left: 8.4%;
     float: left;
   }
-  .main4-title2{
+  .main4__title2{
     width:480px;
     height: 142px;
   }
-  .main4-title2 h1{
+  .main4__title2-text{
     font-family:'源ノ角ゴシック';
     font-size:48px;
     font-weight: bold;
     color:#0D67FF;
     text-shadow: 1px 2px 7px #aaaaaa;
   }
-  .main4-content{
+  .main4__figure--sp{
+    display:none;
+   
+  }
+  .main4__content{
     width:434px;
     height: 142px;
     margin-top:40px;
   }
-  .main4-content p{
+  .main4__content-text{
     font-family:'源ノ角ゴシックJP';
     font-size:20px;
     font-weight: normal;
   }
-  .main4-button{
+  .main4__button{
     margin-top:38px;
     background-color:#0D67FF;
     height:56px; 
@@ -472,43 +459,49 @@
     line-height:56px;
     text-align: center;
   }
-  .main4-button a {
+  .main4__button-link {
     font-family:'源ノ角ゴシック';
     font-size:16px;
     vertical-align: middle; 
     font-weight: bold;
     color:white;
   }
-  .main4-right{
+  .main4__right{
     width:42%;
     height:416px;
     margin-top:48px;
     margin-left: 5.3%;
     float: left;
   }
-  .main4-right img{
+  .main4__right-image{
     width:100%;
     height:416px;
   }
-  .main-visual5{
+  .main5{
     width: 100%;
     height: 802px;
     overflow: hidden;
     
     
   }
-  .main5-title{
+  .main5__dig{
+    width:7.11%;
+    height: 109px;
+    background: linear-gradient(75deg, white, white 45.5%, #F6404F 45.5%,#F6404F 50.5%, white 50.5%, white);
+    float:left;
+}
+  .main5__top{
     margin-top:65px;
     width:468px;
     height: 109px;
     margin-right: auto;
     margin-left:auto;
   }
-  .main5-top-text{
+  .main5__title{
     text-align: center;
     color:#4B4B4B;
   }
-  .main5-top-text h1{
+  .main5__title-text{
     width:382px;
     height: 109px;
     font-family:'源ノ角ゴシック';
@@ -516,13 +509,18 @@
     font-weight: bold;
     float: left;
   }
- 
-  .main5-container{
+  .main5__dig2{
+    width:7.11%;
+    height: 109px;
+    background: linear-gradient(105deg, white, white 45.5%, #F6404F 45.5%,#F6404F 50.5%, white 50.5%, white);
+    float:left;
+  }
+  .main5__container{
     display: flex;
     justify-content: center;
     margin-top:65px;
   }
-  .main5-box-number{
+  .main5__box-number{
     width:42px;
     height:52px;
     margin-left:auto;
@@ -530,65 +528,86 @@
     margin-top:12px;
     
   }
-  .main5-box-number h3{
+  .main5__box-title{
     font-family:'源ノ角ゴシック';
     font-size:36px;
     font-weight: bold;
     color:#0D67FF;
   }
-  .red-line2{
+  .main5__red-line2{
     height:4px;
     width:24px;
     margin-left:45.5%;
     background-color: red;
     border-radius:20%;
   }
-  .main5-subtitle{
+  .main5__subtitle{
     text-align: center;
     margin-top:17px;
     width:99.3%;
     height: 53px;
   }
-  .main5-subtitle p{
+  .main5-subtitle-text{
     font-family: Helevetica Nune;
     font-size: 16px;
     font-weight: bold;
   }
-  .main5-box-img{
+  .main5__box-figure{
     width: 275px;
     height:160px;
     margin-top:20px;
     margin-left:auto;
     margin-right: auto
-
   }
-  .main5-box-img img{
+  .main5__box-image{
     margin-left: 60px;
     margin-top:16px;
   }
-  .main5-box{
+  .main5__box-content{
+    margin-top:18px;
+    font-family:'源ノ角ゴシック';
+    font-size:14px;
+    font-weight: normal;
+    color:#4B4B4B;
+  }
+  .main5__box{
     width:25.3%;
     height: 405px;
     margin-right:35px;
   }
-  .main5-box2{
+  .main5__box2{
     width:25.3%;
     height: 405px;
   }
-  .main5-box3{
+  .main5__box3{
     width:25.3%;
     height: 405px;
     margin-left:35px;
   }
-  .button{
+  .main5__bottom{
     margin-top:50px;
     width:334px;
     height:56px;
     margin-right: auto;
     margin-left:auto;
-   
   }
-  .main-visual6{
+  .main5__button{
+    margin-top:38px;
+    background-color:#0D67FF;
+    height:56px; 
+    width:334px;
+    border-radius:5px;
+    line-height:56px;
+    text-align: center;
+  }
+  .main5__button-link {
+    font-family:'源ノ角ゴシック';
+    font-size:16px;
+    vertical-align: middle; 
+    font-weight: bold;
+    color:white;
+  }
+  .main6{
     width: 100%;;
     height: 680px;
     background-image:url(img/ellipse.png);
@@ -596,7 +615,18 @@
     background-position: 30% 0%;
     overflow:hidden;
   }
-  .main6-title{
+  .main6__container{
+    display: flex;
+    justify-content: center;
+    margin-top:72px;
+  }
+  .main6__box{
+    width:15.8%;
+    height:142px;
+    margin-left:12.7%;
+    margin-right: 43px;
+  }
+  .main6__title{
     margin-top:144px;
     width: 496px;
     height: 112px;
@@ -604,13 +634,13 @@
     margin-left:auto;
     text-align:center;
   }
-  .main6-title h1{
+  .main6__title-text{
     font-family:'源ノ角ゴシック';
     font-size:36px;
     font-weight: bold;
     color:#4B4B4B;
   }
-  .red-line{
+  .main6__red-line{
     height:4px;
     width:74px;
     margin-right: auto;
@@ -619,60 +649,50 @@
     background-color: red;
     border-radius:20%;
   }
-  .main6-subtitle{
+  .main6__subtitle{
     font-family:'源ノ角ゴシック';
     font-size:16px;
     font-weight: normal;
     color:#4B4B4B;
   }
-  .main6-number{
-    width:37.2%;
+  .main6__number{
+    width:28.2%;
     height: 116px;
     margin-left:28px;
     float: left;
   }
-  .main6-img{
+  .main6__item{
     width:17.46%;
     height:100%;
     margin-left:2%;
     float: left;
   }
-  .main6-img img{
+  .main6__item-image{
     margin-top:30px;
   }
-  .main6-img p{
+  .main6__item-text{
     font-family:'源ノ角ゴシック';
     font-size:18px;
     font-weight: normal;
     color:#4B4B4B;
     margin-top:22px;
   }
-  .main6-container{
-    display: flex;
-    justify-content: center;
-    margin-top:72px;
-  }
-  .main6-box{
-    width:15.8%;
+  .main6__box2{
+    width:34.84%;
     height:142px;
-    margin-left:12.7%;
-    margin-right: 43px;
   }
-  .main6-subtitle2{
+  .main6__subtitle2{
     width:108px;
     height: 26px;
     margin-left:30.6%;
   }
-  .main6-subtitle2 p{
+  .main6__subtitle2-text{
     font-family:'源ノ角ゴシック';
     font-size:18px;
     font-weight: normal;
     color:#4B4B4B;
   }
-  .main6-box2{
-    width:34.84%;
-    height:142px;
-  }
+  
   .main6-img2{
     background-image:url(img/bg_people.png);
     background-position: center;
@@ -832,10 +852,7 @@
     background-color:#F6404F;
     float:left;
   }
-  .tv-img-sp{
-    display:none;
-   
-  }
+  
   /*1246*/
   
   /* スマートフォンサイズ（425px）以下の際に適用される設定 */
@@ -976,15 +993,15 @@
     height:60px;
     font-size:20px;
   }
-  .main2-box{
+  .main2__box{
     margin-left:auto;
     margin-right:auto;
   }
-  .main2-box2{
+  .main2__box2{
     margin-left:auto;
     margin-right:auto;
   }
-  .main2-box3{
+  .main2__box3{
     margin-left:auto;
     margin-right:auto;
   }
@@ -995,97 +1012,97 @@
     background-size:115% 580px;
     height:600px;
   }
-  .main3-top{
+  .main3__top{
     width:310px;
     height:59px;
   }
-  .main3-top__title{
+  .main3__top-title{
     font-size:20px;
   }
   .main3__red-line{
     width:24px;
     margin-top:29px;
   }
-  .main3-content1{
+  .main3__content1{
     width:290px;
     height:49px;
     margin-right: auto;
     margin-left:auto;
   }
-  .main3-content1__subtitle{
+  .main3__content1-subtitle{
     margin-top:20px;
     width:224px;
     height:48px;
     font-size:16px;
   }
-  .main3-content2{
+  .main3__content2{
     width:290px;
     height:49px;
     margin-right: auto;
     margin-left:auto;
   }
-  .main3-content2__subtitle{
+  .main3__content2-subtitle{
     margin-top:20px;
     width:224px;
     height:48px;
     font-size:16px;
   }
-  .main3-content3{
+  .main3__content3{
     width:290px;
     height:49px;
     margin-right: auto;
     margin-left:auto;
   }
-  .main3-content3__subtitle{
+  .main3__content3-subtitle{
     margin-top:20px;
     width:224px;
     height:48px;
     font-size:16px;
   }
   
-  .angular{
+  .main4__item{
     width:29px;
     height: 74px;
   }
-  .triangle1{
+  .main4__item-triangle1{
     border-left: 14.5px solid transparent;
     border-right: 14.5px solid transparent;
     border-top: 14.5px solid #0D67FF;
   }
-  .triangle2{
+  .main4__item-triangle2{
     border-left: 14.5px solid transparent;
     border-right: 14.5px solid transparent;
     border-top: 14.5px solid #0D67FF;
     margin-top:14px;
   }
-  .triangle-sp{
+  .main4__item-triangle3--sp{
     border-left: 14.5px solid transparent;
     border-right: 14.5px solid transparent;
     border-top: 14.5px solid #0D67FF;
     margin-top: 14px;
     display: block;
   }
-  .main4-left{
+  .main4__left{
     float:none;
     width:100%;
     margin-left:auto;
     margin-top:0px;
 
   }
-  .main4-title{
+  .main4__title{
     margin-top:32px;
     width:103px;
     height:20px;
   }
-  .main4-title h3{
+  .main4__title-text{
     font-size:14px;
   }
-  .main4-title2 {
+  .main4__title2 {
     width:280px;
     height: 100px;
     margin:0 auto;
   }
-  .main4-title2 h1{
+  .main4__title2-text{
     font-size:28px;
     text-align: center;
 
@@ -1100,115 +1117,130 @@
     width:4px;
     height: 4px;
   }
-  .main4-button{
+  .main4__button{
     display:none;
   }
-  .main4-right{
+  .main4__right{
     display:none;
   }
-  .tv-img-sp{
+  .main4__figure--sp{
     display:block;
     width:300px;
     height: 237px;
     margin-left:auto;
     margin-right:auto;
   }
-  .tv-img-sp img{
+  .main4__image--sp{
     width:300px;
     height:237px;
    
   }
-  .main4-content{
+  .main4__content{
     width:318px;
     height: 104px;
     margin-left:auto;
     margin-right:auto;
     margin-top:30px;
   }
-  .main4-content p{
+  .main4__content-text{
     font-size:14px;
     line-height: 200%;
   }
-  .main-visual5{
+  .main5{
     width: 100%;
     height: 1520px;
     overflow: hidden;
     }
- .main5-title{
+    .main5__dig{
+      height:60px;
+    }
+    .main5__dig2{
+      height:60px;
+    }
+ .main5__top{
    margin-top:0px;
    width:240px;
    height:50px;
  }
- .main5-top-text h1{
+
+ .main5__title-text{
    width:190px;
    height:59px;
    font-size:20px;
  }
- .main5-container {
+ 
+ .main5__container {
   display:block;
  }
- .main5-box{
+ .main5__box{
    margin-right: auto;
    margin-left: auto;
    margin-top:100px;
    width:325px;
     height: 405px;
  }
- .main5-box2{
+ .main5__box2{
   margin-right: auto;
   margin-left: auto;
   margin-top:70px;
   width:325px;
     height: 405px;
 }
-.main5-box3{
+.main5__box3{
   margin-right: auto;
   margin-left: auto;
   margin-top:70px;
   width:325px;
     height: 405px;
 }
-.main2-box-text{
+.main5__box-content{
   line-height: 200%;
 }
-.main6-title{
+.main5__button{
+  display:none;
+}
+.main6__title{
   margin-top:80px;
   width:276px;
   height: 59px;
 }
-.main6-title h1{
+.main6__title-text{
   font-size:20px;
 }
-.main6-container{
+.main6__red-line{
+  width:24px;
+  margin-top:29px;
+}
+.main6__container{
   display:block;
   margin-top:32px;
 }
-.main6-box{
+.main6__box{
   width:100px;
   height:102px;
   margin-left:auto;
   margin-right: auto;
 }
-.main6-subtitle{
+.main6__subtitle{
   font-size:14px;
 }
-.main6-number{
+.main6__number{
   width:38px;
   height:90px;
 }
-.main6-number img{
+.main6__number-image{
   width:33px;
   height:81px;
   margin-left:5px;
 }
-.main6-img img{
+.main6__item-image{
   margin-top:15px;
 }
-.main6-img p{
+.main6__item-text{
   font-size:14px;
   margin-top:15px;
 }
-.main6-box2{
+.main6__box2{
   width:375px;
   height:140px;
   background-image:url(img/bg_people.png);
@@ -1217,14 +1249,14 @@
   margin-left: auto;
   overflow: hidden;
 }
-.main6-subtitle2{
+.main6__subtitle2{
   width:22.5%;
   height: 20px;
   margin-left:auto;
   margin-right: auto;
   margin-top:20px;
 }
-.main6-subtitle2 p{
+.main6__subtitle2-text{
   font-size:14px;
   width:100%;
   height: 100%;
